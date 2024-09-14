@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(207, 225, 207);
+    
+}
+
+*{
+    margin: 1.5;
+    padding: 1;
+}
+body{
+    background-color: rgb(207, 225, 207);
+}
+.container{
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    background-color: darkcyan;
+    border-radius: 10px;
+    max-width: 900px;
+    
+}
+h1{
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, rgb(171, 193, 182), pink);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    text-wrap: wrap ;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+    margin: auto;
+margin-bottom: 2%;
+}
+img{
+    border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.img:hover{
+    width: 150px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(176, 161, 161, 0.2);
+}
+p{
+    background-color:rgb(233, 231, 233);
+padding: 15px;
+    margin: 2px ;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    text-wrap: wrap;text-decoration-color: rgb(34, 6, 6);
+    box-shadow: 0 4px 8px rgba(144, 29, 29, 0.2);
+    animation: colorChange 3s infinite;
+    font-weight: bold;
+    user-select: none;
+    
+}
+
+@keyframes colorChange {
+    0% { color: rgb(109, 192, 170); }
+    50% { color: rgb(51, 51, 21); }
+    100% { color: rgb(33, 93, 167); }
+}
